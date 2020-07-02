@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ninja Desapareciendo</title>
+		<meta charset="utf-8">
+		<style type="text/css">
+			img{
+				display: block;
+				margin-top: 10px;
+			}
+		</style>
+			
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('.gato').click(function(){ //var id = $(this).val();
+                	$(this).attr('src',"img/ninja0.png");
+            	})
+            	$('.gato1').click(function(){ //var id = $(this).val();
+                	$(this).attr('src',"img/ninja1.png");
+            	})
+            	$('.gato2').click(function(){ //var id = $(this).val();
+                	$(this).attr('src',"img/ninja2.png");
+            	})
+            	$('.gato3').click(function(){ //var id = $(this).val();
+                	$(this).attr('src',"img/ninja3.png");
+            	})
+            	$('.gato4').click(function(){ //var id = $(this).val();
+                	$(this).attr('src',"img/ninja4.png");
+            	})
+			})
+		</script>
+	</head>
+	<body>
+		<img class="gato"src="img/cat0.png">
+		<img class="gato1"src="img/cat1.png">
+		<img class="gato2"src="img/cat2.png">
+		<img class="gato3"src="img/cat3.png">
+		<img class="gato4"src="img/cat4.png">
+	</body>
+</html>
