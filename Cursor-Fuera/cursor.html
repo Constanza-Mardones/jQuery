@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Cursor en Fuera</title>
+		<meta charset="utf-8">
+		<style type="text/css">
+			img{
+				display: inline-block;
+				width: 200px;
+				height: 450px;
+				margin: 10px 0px 0px 10px;
+			}
+		</style>	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('.carta').hover(function(){ 
+                	$(this).attr('src',"tarjeta.jpg");
+            	}, function(){
+            		$(this).attr('src',"flight.jpg");
+            	});
+            	$('.carta1').hover(function(){ 
+                	$(this).attr('src',"tarjeta.jpg");
+            	}, function(){
+            		$(this).attr('src',"gale.jpg");
+            	});
+            	$('.carta2').hover(function(){ 
+                	$(this).attr('src',"tarjeta.jpg");
+            	}, function(){
+            		$(this).attr('src',"lucid.jpg");
+            	});
+            	$('.carta3').hover(function(){ 
+                	$(this).attr('src',"tarjeta.jpg");
+            	}, function(){
+            		$(this).attr('src',"aqua.jpg");
+            	});
+			})
+		</script>
+	</head>
+	<body>
+		<img class="carta"src="flight.jpg">
+		<img class="carta1"src="gale.jpg">
+		<img class="carta2"src="lucid.jpg">
+		<img class="carta3"src="aqua.jpg">
+	</body>
+</html>
